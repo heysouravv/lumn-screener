@@ -1,0 +1,46 @@
+# Python virtual environment
+skincare_env/
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+amazon_scraping.log
+cosing_extraction.log
+
+# Data and media files
+*.dat
+*.jpg
+*.jpeg
+*.png
+*.gif
+WhatsApp Image*
+test_image.jpg
+shape_predictor_68_face_landmarks.dat
+
+# Generated data files
+data/
+*.json
+skin_profile_*.json
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
